@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+        url('../assets/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Graphik-Regular.woff') format('woff'),
+        url('../assets/fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    font-family: 'Graphik';
+    background-color: #181818;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-heading{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.heading{
+    font-weight: 400;
+    font-size: 52px;        
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+.subheading{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.active-button{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding: 10px 30px;
+    background-color: #4452FE;
+    font-family: 'Graphik';
+    color: white;
+    border: none;
+}
+.dormant-button{
+    font-family: 'Graphik';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: white;
+    width: 174;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: #181818;
+}
