@@ -43,27 +43,31 @@ h1 {
   gap: 30px;
 }
 
-.btn {
-  width: 180px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-  border: 1px solid white;
+.active-button{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding: 10px 30px;
+    background-color: #4452FE;
+    font-family: 'Graphik';
+    color: white;
+    border: none;
+    text-decoration: none;
 }
-
-.primary {
-  background: #4452fe;
-  border-color: #4452fe;
+.dormant-button{
+    font-family: 'Graphik';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: white;
+    width: 174;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: #181818;
+    text-decoration: none;
 }
-
-.secondary {
-  background: transparent;
-}
-
 .images {
   width: 1100px;
   height: 620px;
