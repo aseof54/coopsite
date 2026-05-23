@@ -218,3 +218,8 @@ header{
 .upper-cc-info p{
     text-align: center;
 }
+.bn{
+    width: 379px;
+    height: 276px;
+    border-radius: 14px;
+}
