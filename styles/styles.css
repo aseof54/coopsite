@@ -188,4 +188,33 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 33px;
+}
+.content-card{
+    background-color: white;
+    border-radius: 10px;
+    width: 476px;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+.upper-cc-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 288px;
+}
+.upper-cc-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.upper-cc-info p{
+    text-align: center;
 }
