@@ -86,6 +86,12 @@ h1 {
   perspective: 1000px;
 }
 
+.features{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 54px;
+    margin-bottom: 100px;
 .images::after {
   content: "";
   position: absolute;
@@ -158,6 +164,69 @@ h1 {
 .screens-image{
   margin-top: 30px;
 }
+.feature-card-heading{
+    max-width: 153px;
+    font-family: 'Graphik';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    display: flex;
+    margin: 10px;
+}
+.feature-info-card p{
+    padding: 10px;
+    margin: 0;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+.main-contens-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contents-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+}
+.content-card{
+    background-color: white;
+    border-radius: 10px;
+    width: 476px;
+    height: 624px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+.upper-cc-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 288px;
+}
+.upper-cc-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.upper-cc-info p{
+    text-align: center;
+}
+.bn{
+    width: 379px;
+    height: 276px;
+    border-radius: 14px;
 
 .actions{
   gap: 35px;
