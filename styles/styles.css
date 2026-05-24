@@ -92,6 +92,7 @@ h1 {
     flex-direction: column;
     gap: 54px;
     margin-bottom: 100px;
+}
 .images::after {
   content: "";
   position: absolute;
@@ -227,6 +228,7 @@ h1 {
     width: 379px;
     height: 276px;
     border-radius: 14px;
+}
 
 .actions{
   gap: 35px;
