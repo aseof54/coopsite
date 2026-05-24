@@ -50,6 +50,13 @@ header{
     letter-spacing: 0.2px;
     text-align: center;
     padding: 10px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.header-menu-option:hover{
+  transform: scale(120%);
+  color: rgb(183, 183, 183);
 }
 
 body {
